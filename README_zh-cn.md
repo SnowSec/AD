@@ -1,13 +1,6 @@
 # WatchAD
 
-![PyPI version](https://img.shields.io/badge/Python-3.6+-blue.svg) [![ElasticSearch version](https://img.shields.io/badge/ElasticSearch-5.X-success.svg)](https://www.elastic.co/guide/en/elasticsearch/reference/5.2/index.html) [![Logstash version](https://img.shields.io/badge/Logstash-6.X-yellowgreen.svg)](https://www.elastic.co/guide/en/logstash/6.2/index.html) [![RabbitMQ version](https://img.shields.io/badge/RabbitMQ-3.7-orange.svg)](https://www.rabbitmq.com/) [![DEF CON 27 Blue Team Village](https://img.shields.io/badge/DEF%20CON%2027-Blue%20Team%20Village-blue.svg)](https://www.blueteamvillage.org/home/dc27/talks#h.p_5uroKErLDdmP)
-
-> 域安全入侵感知系统
-
-[English Document](./README.md) | 中文文档
-
-WatchAD收集所有域控上的事件日志和kerberos流量，通过特征匹配、Kerberos协议分析、历史行为、敏感操作和蜜罐账户等方式来检测各种已知与未知威胁，功能覆盖了大部分目前的常见内网域渗透手法。该项目在360内部上线运行半年有余，发现多起威胁活动，取得了较好的效果。现决定开源系统中基于事件日志的检测部分。
-
+![PyPI version](https://img.shields.io/badge/Python-3.6+-blue.svg) [![ElasticSearch version](https://img.shields.io/badge/ElasticSearch-5.X-success.svg)](https://www.elastic.co/guide/en/elasticsearch/reference/5.2/index.html) [![Logstash version](https://img.shields.io/badge/Logstash-6.X-yellowgreen.svg)](https://www.elastic.co/guide/en/logstash/6.2/index.html) [![RabbitMQ version](https://img.shields.io/badge/RabbitMQ-3.7-orange.svg)](https://www.rabbitm
 目前支持的具体检测功能如下：
 
 - **信息探测**：使用SAMR查询敏感用户组、使用SAMR查询敏感用户、蜜罐账户的活动、PsLoggedOn信息收集
